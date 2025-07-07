@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dataanvil"
+version = "0.0.1"
+authors = [
+    { name="Mohammad Hossein Moslemi", email="mhmoslemi2338@gmail.com" },
+    { name="Jiongli Zhu", email="jiz143@ucsd.edu" },
+]
+description = "A Python library for generating synthetic data with advanced noise injection."
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["synthetic data", "noise", "missing data", "data generation"]
+dependencies = [
+    "numpy",
+    "pandas",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/mhmoslemi2338/DataAnvil"
