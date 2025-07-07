@@ -1,5 +1,5 @@
 import numpy as np
-from dataanvil.noise import add_gaussian_noise
+from Anvil.noise import add_gaussian_noise
 
 def test_add_gaussian_noise_shape():
     X = np.ones((10, 5))
